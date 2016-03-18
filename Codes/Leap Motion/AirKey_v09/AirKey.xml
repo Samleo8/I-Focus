@@ -1,0 +1,424 @@
+<?xml version="1.0" standalone=no>
+<!-- Settings -->
+<Sensitivity attr="10"></Sensitivity>
+<MouseZone attr="-25"></MouseZone>
+<CirclingSpeed attr="5"></CirclingSpeed>
+<LeftHanded attr="false"></LeftHanded>
+<!-- Hotkey Definitions -->
+<circleStepCW>
+	<isMouse attr="true"></isMouse>
+	<ctrl attr="false"></ctrl>
+	<alt attr="false"></alt>
+	<win attr="false"></win>	
+	<shift attr="false"></shift>
+	<virtKeyCode attr="-2048"></virtKeyCode>
+	<keepPressed attr="false"></keepPressed>
+	<release attr="false"></release>
+</circleStepCW>
+<circleStepCCW>
+	<isMouse attr="true"></isMouse>
+	<ctrl attr="false"></ctrl>
+	<alt attr="false"></alt>
+	<win attr="false"></win>	
+	<shift attr="false"></shift>
+	<virtKeyCode attr="2048"></virtKeyCode>
+	<keepPressed attr="false"></keepPressed>
+	<release attr="false"></release>
+</circleStepCCW>
+<swipeUp>
+	<isMouse attr="false"></isMouse>
+	<ctrl attr="false"></ctrl>
+	<alt attr="false"></alt>
+	<win attr="false"></win>	
+	<shift attr="false"></shift>
+	<virtKeyCode attr="38"></virtKeyCode>
+	<keepPressed attr="false"></keepPressed>
+	<release attr="false"></release>
+</swipeUp>
+<swipeDown>
+	<isMouse attr="false"></isMouse>
+	<ctrl attr="false"></ctrl>
+	<alt attr="false"></alt>
+	<win attr="false"></win>	
+	<shift attr="false"></shift>
+	<virtKeyCode attr="40"></virtKeyCode>
+	<keepPressed attr="false"></keepPressed>
+	<release attr="false"></release>
+</swipeDown>
+<swipeLeft>
+	<isMouse attr="false"></isMouse>
+	<ctrl attr="false"></ctrl>
+	<alt attr="false"></alt>
+	<win attr="false"></win>	
+	<shift attr="false"></shift>
+	<virtKeyCode attr="37"></virtKeyCode>
+	<keepPressed attr="false"></keepPressed>
+	<release attr="false"></release>
+</swipeLeft>
+<swipeRight>
+	<isMouse attr="false"></isMouse>
+	<ctrl attr="false"></ctrl>
+	<alt attr="false"></alt>
+	<win attr="false"></win>	
+	<shift attr="false"></shift>
+	<virtKeyCode attr="176"></virtKeyCode>
+	<keepPressed attr="39"></keepPressed>
+	<release attr="false"></release>
+</swipeRight>
+<screenTab>
+	<isMouse attr="false"></isMouse>
+	<ctrl attr="false"></ctrl>
+	<alt attr="false"></alt>
+	<win attr="false"></win>	
+	<shift attr="false"></shift>
+	<virtKeyCode attr="0"></virtKeyCode>
+	<keepPressed attr="false"></keepPressed>
+	<release attr="false"></release>
+</screenTab>
+<keyTab>
+	<isMouse attr="false"></isMouse>
+	<ctrl attr="false"></ctrl>
+	<alt attr="false"></alt>
+	<win attr="false"></win>	
+	<shift attr="false"></shift>
+	<virtKeyCode attr="0"></virtKeyCode>
+	<keepPressed attr="false"></keepPressed>
+	<release attr="false"></release>
+</keyTab>
+<mouseUp>
+	<isMouse attr="false"></isMouse>
+	<ctrl attr="false"></ctrl>
+	<alt attr="false"></alt>
+	<win attr="false"></win>	
+	<shift attr="false"></shift>
+	<virtKeyCode attr="0"></virtKeyCode>
+	<keepPressed attr="false"></keepPressed>
+	<release attr="false"></release>
+</mouseUp>
+<mouseClick>
+	<isMouse attr="true"></isMouse>
+	<ctrl attr="false"></ctrl>
+	<alt attr="false"></alt>
+	<win attr="false"></win>	
+	<shift attr="false"></shift>
+	<virtKeyCode attr="2"></virtKeyCode>
+	<keepPressed attr="false"></keepPressed>
+	<release attr="false"></release>
+</mouseClick>
+<mouseKeepDown>
+	<isMouse attr="true"></isMouse>
+	<ctrl attr="false"></ctrl>
+	<alt attr="false"></alt>
+	<win attr="false"></win>	
+	<shift attr="false"></shift>
+	<virtKeyCode attr="2"></virtKeyCode>
+	<keepPressed attr="true"></keepPressed>
+	<release attr="false"></release>
+</mouseKeepDown>
+<mouseKeepRight>
+	<isMouse attr="true"></isMouse>
+	<ctrl attr="false"></ctrl>
+	<alt attr="false"></alt>
+	<win attr="false"></win>	
+	<shift attr="false"></shift>
+	<virtKeyCode attr="8"></virtKeyCode>
+	<keepPressed attr="true"></keepPressed>
+	<release attr="false"></release>
+</mouseKeepRight>
+<mouseRight>
+	<isMouse attr="true"></isMouse>
+	<ctrl attr="false"></ctrl>
+	<alt attr="false"></alt>
+	<win attr="false"></win>	
+	<shift attr="false"></shift>
+	<virtKeyCode attr="8"></virtKeyCode>
+	<keepPressed attr="false"></keepPressed>
+	<release attr="false"></release>
+</mouseRight>
+<circleStepCWMultiFinger>
+	<isMouse attr="false"></isMouse>
+	<ctrl attr="false"></ctrl>
+	<alt attr="false"></alt>
+	<win attr="false"></win>	
+	<shift attr="false"></shift>
+	<virtKeyCode attr="175"></virtKeyCode>
+	<keepPressed attr="false"></keepPressed>
+	<release attr="false"></release>
+</circleStepCWMultiFinger>
+<circleStepCCWMultiFinger>
+	<isMouse attr="false"></isMouse>
+	<ctrl attr="false"></ctrl>
+	<alt attr="false"></alt>
+	<win attr="false"></win>	
+	<shift attr="false"></shift>
+	<virtKeyCode attr="174"></virtKeyCode>
+	<keepPressed attr="false"></keepPressed>
+	<release attr="false"></release>
+</circleStepCCWMultiFinger>
+<swipeUpMultiFinger>
+	<isMouse attr="false"></isMouse>
+	<ctrl attr="false"></ctrl>
+	<alt attr="false"></alt>
+	<win attr="false"></win>	
+	<shift attr="false"></shift>
+	<virtKeyCode attr="38"></virtKeyCode>
+	<keepPressed attr="false"></keepPressed>
+	<release attr="false"></release>
+</swipeUpMultiFinger>
+<swipeDownMultiFinger>
+	<isMouse attr="false"></isMouse>
+	<ctrl attr="false"></ctrl>
+	<alt attr="false"></alt>
+	<win attr="false"></win>	
+	<shift attr="false"></shift>
+	<virtKeyCode attr="40"></virtKeyCode>
+	<keepPressed attr="false"></keepPressed>
+	<release attr="false"></release>
+</swipeDownMultiFinger>
+<swipeLeftMultiFinger>
+	<isMouse attr="false"></isMouse>
+	<ctrl attr="false"></ctrl>
+	<alt attr="false"></alt>
+	<win attr="true"></win>	
+	<shift attr="true"></shift>
+	<virtKeyCode attr="37"></virtKeyCode>
+	<keepPressed attr="false"></keepPressed>
+	<release attr="false"></release>
+</swipeLeftMultiFinger>
+<swipeRightMultiFinger>
+	<isMouse attr="false"></isMouse>
+	<ctrl attr="false"></ctrl>
+	<alt attr="false"></alt>
+	<win attr="true"></win>	
+	<shift attr="true"></shift>
+	<virtKeyCode attr="39"></virtKeyCode>
+	<keepPressed attr="false"></keepPressed>
+	<release attr="false"></release>
+</swipeRightMultiFinger>
+<screenTabMultiFinger>
+	<isMouse attr="false"></isMouse>
+	<ctrl attr="false"></ctrl>
+	<alt attr="false"></alt>
+	<win attr="false"></win>	
+	<shift attr="false"></shift>
+	<virtKeyCode attr="0"></virtKeyCode>
+	<keepPressed attr="false"></keepPressed>
+	<release attr="false"></release>
+</screenTabMultiFinger>
+<keyTabMultiFinger>
+	<isMouse attr="false"></isMouse>
+	<ctrl attr="false"></ctrl>
+	<alt attr="false"></alt>
+	<win attr="false"></win>	
+	<shift attr="false"></shift>
+	<virtKeyCode attr="0"></virtKeyCode>
+	<keepPressed attr="false"></keepPressed>
+	<release attr="false"></release>
+</keyTabMultiFinger>
+<screenTabMouseZone>
+	<isMouse attr="false"></isMouse>
+	<ctrl attr="false"></ctrl>
+	<alt attr="false"></alt>
+	<win attr="false"></win>	
+	<shift attr="false"></shift>
+	<virtKeyCode attr="0"></virtKeyCode>
+	<keepPressed attr="false"></keepPressed>
+	<release attr="false"></release>
+</screenTabMouseZone>
+<keyTabMouseZone>
+	<isMouse attr="true"></isMouse>
+	<ctrl attr="false"></ctrl>
+	<alt attr="false"></alt>
+	<win attr="false"></win>	
+	<shift attr="false"></shift>
+	<virtKeyCode attr="32"></virtKeyCode>
+	<keepPressed attr="false"></keepPressed>
+	<release attr="false"></release>
+</keyTabMouseZone>
+<InvertTrigger attr="true"></InvertTrigger>
+<GestureDelay attr="100"></GestureDelay>
+<circleStepCWOffHand>
+	<isMouse attr="false"></isMouse>
+	<ctrl attr="false"></ctrl>
+	<alt attr="false"></alt>
+	<win attr="false"></win>	
+	<shift attr="false"></shift>
+	<virtKeyCode attr="0"></virtKeyCode>
+	<keepPressed attr="false"></keepPressed>
+	<release attr="false"></release>
+</circleStepCWOffHand>
+<circleStepCCWOffHand>
+	<isMouse attr="false"></isMouse>
+	<ctrl attr="false"></ctrl>
+	<alt attr="false"></alt>
+	<win attr="false"></win>	
+	<shift attr="false"></shift>
+	<virtKeyCode attr="0"></virtKeyCode>
+	<keepPressed attr="false"></keepPressed>
+	<release attr="false"></release>
+</circleStepCCWOffHand>
+<swipeUpOffHand>
+	<isMouse attr="false"></isMouse>
+	<ctrl attr="false"></ctrl>
+	<alt attr="false"></alt>
+	<win attr="false"></win>	
+	<shift attr="false"></shift>
+	<virtKeyCode attr="38"></virtKeyCode>
+	<keepPressed attr="false"></keepPressed>
+	<release attr="false"></release>
+</swipeUpOffHand>
+<swipeDownOffHand>
+	<isMouse attr="false"></isMouse>
+	<ctrl attr="false"></ctrl>
+	<alt attr="false"></alt>
+	<win attr="false"></win>	
+	<shift attr="false"></shift>
+	<virtKeyCode attr="40"></virtKeyCode>
+	<keepPressed attr="false"></keepPressed>
+	<release attr="false"></release>
+</swipeDownOffHand>
+<swipeLeftOffHand>
+	<isMouse attr="false"></isMouse>
+	<ctrl attr="true"></ctrl>
+	<alt attr="false"></alt>
+	<win attr="false"></win>	
+	<shift attr="false"></shift>
+	<virtKeyCode attr="37"></virtKeyCode>
+	<keepPressed attr="false"></keepPressed>
+	<release attr="false"></release>
+</swipeLeftOffHand>
+<swipeRightOffHand>
+	<isMouse attr="false"></isMouse>
+	<ctrl attr="true"></ctrl>
+	<alt attr="false"></alt>
+	<win attr="false"></win>	
+	<shift attr="false"></shift>
+	<virtKeyCode attr="39"></virtKeyCode>
+	<keepPressed attr="false"></keepPressed>
+	<release attr="false"></release>
+</swipeRightOffHand>
+<screenTabOffHand>
+	<isMouse attr="false"></isMouse>
+	<ctrl attr="false"></ctrl>
+	<alt attr="false"></alt>
+	<win attr="false"></win>	
+	<shift attr="false"></shift>
+	<virtKeyCode attr="0"></virtKeyCode>
+	<keepPressed attr="false"></keepPressed>
+	<release attr="false"></release>
+</screenTabOffHand>
+<keyTabOffHand>
+	<isMouse attr="true"></isMouse>
+	<ctrl attr="false"></ctrl>
+	<alt attr="false"></alt>
+	<win attr="false"></win>	
+	<shift attr="false"></shift>
+	<virtKeyCode attr="2"></virtKeyCode>
+	<keepPressed attr="false"></keepPressed>
+	<release attr="false"></release>
+</keyTabOffHand>
+<circleStepCWMultiFingerOffHand>
+	<isMouse attr="false"></isMouse>
+	<ctrl attr="false"></ctrl>
+	<alt attr="false"></alt>
+	<win attr="false"></win>	
+	<shift attr="false"></shift>
+	<virtKeyCode attr="0"></virtKeyCode>
+	<keepPressed attr="false"></keepPressed>
+	<release attr="false"></release>
+</circleStepCWMultiFingerOffHand>
+<circleStepCCWMultiFingerOffHand>
+	<isMouse attr="false"></isMouse>
+	<ctrl attr="false"></ctrl>
+	<alt attr="false"></alt>
+	<win attr="false"></win>	
+	<shift attr="false"></shift>
+	<virtKeyCode attr="0"></virtKeyCode>
+	<keepPressed attr="false"></keepPressed>
+	<release attr="false"></release>
+</circleStepCCWMultiFingerOffHand>
+<swipeUpMultiFingerOffHand>
+	<isMouse attr="false"></isMouse>
+	<ctrl attr="false"></ctrl>
+	<alt attr="false"></alt>
+	<win attr="false"></win>	
+	<shift attr="false"></shift>
+	<virtKeyCode attr="38"></virtKeyCode>
+	<keepPressed attr="false"></keepPressed>
+	<release attr="false"></release>
+</swipeUpMultiFingerOffHand>
+<swipeDownMultiFingerOffHand>
+	<isMouse attr="false"></isMouse>
+	<ctrl attr="false"></ctrl>
+	<alt attr="false"></alt>
+	<win attr="false"></win>	
+	<shift attr="false"></shift>
+	<virtKeyCode attr="40"></virtKeyCode>
+	<keepPressed attr="false"></keepPressed>
+	<release attr="false"></release>
+</swipeDownMultiFingerOffHand>
+<swipeLeftMultiFingerOffHand>
+	<isMouse attr="false"></isMouse>
+	<ctrl attr="false"></ctrl>
+	<alt attr="false"></alt>
+	<win attr="false"></win>	
+	<shift attr="false"></shift>
+	<virtKeyCode attr="37"></virtKeyCode>
+	<keepPressed attr="false"></keepPressed>
+	<release attr="false"></release>
+</swipeLeftMultiFingerOffHand>
+<swipeRightMultiFingerOffHand>
+	<isMouse attr="false"></isMouse>
+	<ctrl attr="false"></ctrl>
+	<alt attr="false"></alt>
+	<win attr="false"></win>	
+	<shift attr="false"></shift>
+	<virtKeyCode attr="39"></virtKeyCode>
+	<keepPressed attr="false"></keepPressed>
+	<release attr="false"></release>
+</swipeRightMultiFingerOffHand>
+<screenTabMultiFingerOffHand>
+	<isMouse attr="false"></isMouse>
+	<ctrl attr="false"></ctrl>
+	<alt attr="false"></alt>
+	<win attr="false"></win>	
+	<shift attr="false"></shift>
+	<virtKeyCode attr="0"></virtKeyCode>
+	<keepPressed attr="false"></keepPressed>
+	<release attr="false"></release>
+</screenTabMultiFingerOffHand>
+<keyTabMultiFingerOffHand>
+	<isMouse attr="true"></isMouse>
+	<ctrl attr="false"></ctrl>
+	<alt attr="false"></alt>
+	<win attr="false"></win>	
+	<shift attr="false"></shift>
+	<virtKeyCode attr="512"></virtKeyCode>
+	<keepPressed attr="false"></keepPressed>
+	<release attr="false"></release>
+</keyTabMultiFingerOffHand>
+<clap>
+	<isMouse attr="false"></isMouse>
+	<ctrl attr="false"></ctrl>
+	<alt attr="false"></alt>
+	<win attr="false"></win>	
+	<shift attr="false"></shift>
+	<virtKeyCode attr="0"></virtKeyCode>
+	<keepPressed attr="false"></keepPressed>
+	<release attr="false"></release>
+</clap>
+<fistBump>
+	<isMouse attr="false"></isMouse>
+	<ctrl attr="false"></ctrl>
+	<alt attr="false"></alt>
+	<win attr="false"></win>	
+	<shift attr="false"></shift>
+	<virtKeyCode attr="0"></virtKeyCode>
+	<keepPressed attr="false"></keepPressed>
+	<release attr="false"></release>
+</fistBump>
+<enableHandDetection attr="true"></enableHandDetection>
+<mouseWheelSensitivity attr="60"></mouseWheelSensitivity>
+<enableTimeOutGesture attr="true"></enableTimeOutGesture>
+<touchAndDragSensitivity attr="3">(integer) The sensitivity to movement when clicking in touchscreen-mode. Use low values for drawing, higher for OS interaction</touchAndDragSensitivity>
+<triggerSensitivity attr="75">how far you have to extend your thumb to trigger a click</triggerSensitivity>

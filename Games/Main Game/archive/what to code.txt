@@ -1,0 +1,13 @@
+REMOVE THE TWEEN, CHANGE THE DIRECTION OF MOVEMENT
+
+enmy.x, enmy.y
+left, right, up, down
+
+if out of screen, done
+then spawn triangle
+triangle.rotate based on trigo
+triangle.x and triangle.y based on 
+
+triangle rotate and change x,y on keymove
+
+lvlObj.levelObj.x,lvlObj.levelObj.y

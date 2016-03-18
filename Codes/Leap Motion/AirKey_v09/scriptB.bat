@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\Mozilla Firefox\firefox.exe" https://forums.leapmotion.com/showthread.php?3547-AirKey-gesture-based-hotkey-mapping-(-basic-mouse-control)/page160

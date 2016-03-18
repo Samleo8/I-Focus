@@ -1,0 +1,56 @@
+<html>
+<head>
+	<title>I-Focus Options</title>
+	<style>
+		@font-face{
+			font-family:"Sansation";
+			src:url(SansationLight.ttf);
+		}
+		html{
+			font-family:"Sansation","Calibri","Sans Serif";
+		}
+		body{
+			padding:20px;
+		}
+		label{
+			font-size: 150%;
+		}
+        #status{
+            position:absolute;
+            border-radius:10px;
+            background:lightgreen;
+            padding:10px 50px;
+            margin-left:20%;
+            opacity:0;
+            transition:all 0.3s ease;
+        }
+		.disableSelect{
+		    -webkit-touch-callout: none;
+		    -webkit-user-select: none;
+		    -khtml-user-select: none;
+		    -moz-user-select: none;
+		    -ms-user-select: none;
+		    user-select: none;
+		}
+	</style>
+	<script src="options.js"></script>
+</head>
+
+<body class="disableSelect">
+<div id="status">Options Saved.</div>
+<b><h1>I-Focus Options</h1></b>
+<h2>Cursor</h2>
+<label>
+  <input type="checkbox" id="specialCursor" /> Enable Special Cursor
+</label>
+<h2>Scrolling</h2>
+<label>
+  <input type="checkbox" id="autoScroll" /> Enable Special-Scrolling
+</label>
+<br>
+<label>
+  <input type="checkbox" id="scrollBox" /> Show Scroll Boxes
+</label>
+<div>
+</body>
+</html>

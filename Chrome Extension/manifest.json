@@ -1,0 +1,24 @@
+{
+    "name": "I-Focus",
+    "description":"Adding I-Focus functions (modified cursor, auto-scrolling) on external sites. Suited especially for eye-tracking",
+    "version": "2.3",
+    "options_page": "options.html",
+    "manifest_version": 2,
+	"icons": { 
+        "16" : "icon16.png",
+        "48" : "icon48.png",
+        "128" : "icon128.png"
+    },
+    "permissions": [
+      "storage"
+    ],
+    "content_scripts": [{
+        "js": ["contentscript.js"],
+        "css":["cursor.css"],
+        "matches": ["<all_urls>"],
+        "exclude_matches": ["*://ifocus.letsgeekaround.com/*","file:///Users/sam/Dropbox/I-Focus/Website/*", "file:///C:/Users/Sam/Dropbox/I-Focus/Website/*"]
+    }],
+    "web_accessible_resources": [
+	    "images/*.png"
+	]
+}

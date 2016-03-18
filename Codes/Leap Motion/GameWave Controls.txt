@@ -1,0 +1,13 @@
+Game Mode:
+Tilt up/Move up - up
+Tilt down/Move down - down
+Tilt left/Move left - left
+Tilt right/Move right -right
+----------------------------------
+Computer Control Mode:
+Hand Closed/Finger Tap - Click
+Tilt up - Scroll up
+Tilt down - Scroll down
+Tilt right - Scroll right
+Tilt left - Scroll left
+

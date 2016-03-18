@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<GazeTrackerClientSettings>
+  <IPAddress>127.0.0.1</IPAddress>
+  <TCPIPServerPort>5555</TCPIPServerPort>
+  <UDPServerPort>6666</UDPServerPort>
+</GazeTrackerClientSettings>

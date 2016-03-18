@@ -1,0 +1,6 @@
+---------SCORE 1---------
+hit: 5
+misfire: 0
+ttlTime: 52
+method: eyekey
+player: I-Focus

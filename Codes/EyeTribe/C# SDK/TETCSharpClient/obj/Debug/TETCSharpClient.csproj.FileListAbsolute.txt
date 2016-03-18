@@ -1,0 +1,7 @@
+C:\Users\Sam\Dropbox\I-Focus\Codes\EyeTribe\EyeTrack\TETCSharpClient\bin\Debug\TETCSharpClient.dll
+C:\Users\Sam\Dropbox\I-Focus\Codes\EyeTribe\EyeTrack\TETCSharpClient\bin\Debug\TETCSharpClient.pdb
+C:\Users\Sam\Dropbox\I-Focus\Codes\EyeTribe\EyeTrack\TETCSharpClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Sam\Dropbox\I-Focus\Codes\EyeTribe\EyeTrack\TETCSharpClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Sam\Dropbox\I-Focus\Codes\EyeTribe\EyeTrack\TETCSharpClient\obj\Debug\TETCSharpClient.csprojResolveAssemblyReference.cache
+C:\Users\Sam\Dropbox\I-Focus\Codes\EyeTribe\EyeTrack\TETCSharpClient\obj\Debug\TETCSharpClient.dll
+C:\Users\Sam\Dropbox\I-Focus\Codes\EyeTribe\EyeTrack\TETCSharpClient\obj\Debug\TETCSharpClient.pdb

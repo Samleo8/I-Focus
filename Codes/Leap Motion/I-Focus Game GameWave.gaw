@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<gamewave version="1.5.6" os="windows">
+  <leap>
+    <game name="I-Focus Game" fingersForOpen="3" leftDefaultToTriggerMode="1"
+          leftTrackFrontMostFinger="0" leftXaxisMoveLikeGamepad="0" leftXaxisSpeed="50"
+          leftXaxisRest="15" leftYaxisMoveLikeGamepad="0" leftYaxisSpeed="50"
+          leftYaxisRest="15" leftZaxisMoveLikeGamepad="1" leftZaxisSpeed="50"
+          leftZaxisRest="15" rightDefaultToTriggerMode="0" rightTrackFrontMostFinger="0"
+          rightXaxisMoveLikeGamepad="0" rightXaxisSpeed="50" rightXaxisRest="15"
+          rightYaxisMoveLikeGamepad="0" rightYaxisSpeed="100" rightYaxisRest="100"
+          rightZaxisMoveLikeGamepad="1" rightZaxisSpeed="50" rightZaxisRest="15"
+          leftTriggerInclinePitchSpeed="50" leftTriggerInclinePitchRest="60"
+          leftTriggerInclineRollSpeed="50" leftTriggerInclineRollRest="60"
+          leftSteeringInclinePitchSpeed="50" leftSteeringInclinePitchRest="60"
+          leftSteeringInclineRollSpeed="50" leftSteeringInclineRollRest="60"
+          rightTriggerInclinePitchSpeed="50" rightTriggerInclinePitchRest="61"
+          rightTriggerInclineRollSpeed="50" rightTriggerInclineRollRest="60"
+          rightSteeringInclinePitchSpeed="52" rightSteeringInclinePitchRest="46"
+          rightSteeringInclineRollSpeed="52" rightSteeringInclineRollRest="52"/>
+    <gestures>
+      <gesture type="785" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="786" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="801" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="802" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="817" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="818" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="833" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="834" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="849" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="850" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="865" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="866" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="2305" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="2306" action="7" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="Mouse Click Left" description=""/>
+      <gesture type="2817" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="2818" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="5905" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="5906" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="5921" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="5922" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="5937" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="5938" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="5953" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="5954" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="6193" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="6194" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="6209" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="6210" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="10001" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="10002" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="10017" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="10018" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="10033" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="10034" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="10049" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="10050" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="10289" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="10290" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="10305" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="10306" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="14097" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="14098" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="14113" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="14114" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="14129" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="14130" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="14145" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="14146" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="14385" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="14386" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="14401" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="14402" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="66577" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="66578" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="66593" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="66594" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="66849" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="66850" action="1" keyCode="65575" modifierFlags="0" nativeCode="21823489"
+               path="" rawText="cursor right" description=""/>
+      <gesture type="66865" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="66866" action="1" keyCode="65574" modifierFlags="0" nativeCode="21495809"
+               path="" rawText="cursor up" description=""/>
+      <gesture type="66881" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="66882" action="1" keyCode="65573" modifierFlags="0" nativeCode="21692417"
+               path="" rawText="cursor left" description=""/>
+      <gesture type="66897" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="66898" action="1" keyCode="65576" modifierFlags="0" nativeCode="22020097"
+               path="" rawText="cursor down" description=""/>
+      <gesture type="68097" action="28" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="Switch Mode" description=""/>
+      <gesture type="68098" action="28" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="Switch Mode" description=""/>
+      <gesture type="197649" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="197650" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="197665" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="197666" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="197905" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="197906" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="197921" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="197922" action="1" keyCode="65575" modifierFlags="0" nativeCode="21823489"
+               path="" rawText="cursor right" description=""/>
+      <gesture type="197937" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="197938" action="1" keyCode="65574" modifierFlags="0" nativeCode="21495809"
+               path="" rawText="cursor up" description=""/>
+      <gesture type="197953" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="197954" action="1" keyCode="65573" modifierFlags="0" nativeCode="21692417"
+               path="" rawText="cursor left" description=""/>
+      <gesture type="197969" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+      <gesture type="197970" action="1" keyCode="65576" modifierFlags="0" nativeCode="22020097"
+               path="" rawText="cursor down" description=""/>
+      <gesture type="199169" action="28" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="Switch Mode" description=""/>
+      <gesture type="199170" action="0" keyCode="-1" modifierFlags="0" nativeCode="0"
+               path="" rawText="" description=""/>
+    </gestures>
+  </leap>
+</gamewave>

@@ -1,0 +1,10 @@
+NASA Task Data
+Scale	Value	Weight
+Mental Demand	55	0.266667
+Physical Demand	10	0
+Temporal Demand	85	0.333333
+Performance	70	0.133333
+Effort	30	0.2
+Frustration	30	0.0666667
+
+Total Workload	60.3333
