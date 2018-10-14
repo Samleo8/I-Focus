@@ -7,25 +7,25 @@
 
 //Cursor.js
 var IFocusCursor = function(){
-	this.time = 1000; //milliseconds
-	this.tickColor = "#EEE";
-	this.bgColor = "rgba(240,240,240,0.2)";
+    this.time = 1000; //milliseconds
+    this.tickColor = "#EEE";
+    this.bgColor = "rgba(240,240,240,0.2)";
     
     this.invertTickColor = "rgb(0,100,100)";
     this.invertBgColor = "rgba(141,211,107,0.4)";
     
-	this.timer = 0;
-	this.ttlProgress = 0;
+    this.timer = 0;
+    this.ttlProgress = 0;
     this.hidden = false;
     
-	this.element = getElementsByClass("cursor")[0];
+    this.element = getElementsByClass("cursor")[0];
     this.hoverElement; //element being hovered on
     
-	this.init = function(tickColor,bgColor){
+    this.init = function(tickColor,bgColor){
         if(tickColor == null) tickColor = this.tickColor;
         if(bgColor == null) bgColor = this.bgColor;
         
-		this.renderProgress(0);
+        this.renderProgress(0);
         var el = getElementsByClass("loader-spiner",this.element);
         for(var i=0;i<el.length;i++){
             el[i].style.borderColor = tickColor;
@@ -36,7 +36,7 @@ var IFocusCursor = function(){
             el[i].style.borderColor = bgColor;
         }
         
-	};
+    };
     
     this.reset = function(){
         clearInterval(this.timer);        
@@ -48,40 +48,40 @@ var IFocusCursor = function(){
         this.init(this.invertTickColor,this.invertBgColor);
     }
 
-	this.activate = function(time){
+    this.activate = function(time){
         if(time==null) time = this.time; 
         this.deactivate();
         this.show();
-		this.timer = setInterval(ani,time/100);
-	}
+        this.timer = setInterval(ani,time/100);
+    }
     
-	this.deactivate = function(){
-		clearInterval(this.timer);
-		this.ttlProgress = 0;
-		this.renderProgress(0);
+    this.deactivate = function(){
+        clearInterval(this.timer);
+        this.ttlProgress = 0;
+        this.renderProgress(0);
 
-	}
+    }
 
-	function ani(){
-		if(cur.ttlProgress<100){
-			cur.ttlProgress++;
-			cur.renderProgress(cur.ttlProgress);
-		}
-		else{
-			cur.deactivate();
-			cur.triggerClick();
-		}
-	}
+    function ani(){
+        if(cur.ttlProgress<100){
+            cur.ttlProgress++;
+            cur.renderProgress(cur.ttlProgress);
+        }
+        else{
+            cur.deactivate();
+            cur.triggerClick();
+        }
+    }
 
-	this.show = function(){
+    this.show = function(){
         this.hidden = false;
         this.element.style.display = "block";
-	};
-	
-	this.hide = function(){
-		this.hidden = true;
+    };
+    
+    this.hide = function(){
+        this.hidden = true;
         this.element.style.display = "none";
-	};
+    };
     
     this.triggerClick = function(){
         if (document.createEvent && this.hoverElement!=null){
@@ -90,8 +90,8 @@ var IFocusCursor = function(){
             this.hoverElement = null;
         }
     }
-	
-	this.renderProgress = function(progress){
+    
+    this.renderProgress = function(progress){
         progress = Math.floor(progress);
         //Must reset b4 continue with actual transformation
         
@@ -114,7 +114,7 @@ var IFocusCursor = function(){
             var angle = -90 + ((progress-50)/100)*360;
             this.doTransform("animate-0-25-b","rotate(0deg)");
             this.doTransform("animate-25-50-b","rotate(0deg)");
-   		   this.doTransform("animate-50-75-b","rotate("+angle+"deg)");
+           this.doTransform("animate-50-75-b","rotate("+angle+"deg)");
             this.doTransform("animate-75-100-b","rotate(90deg)");
         }
         else if(progress>=75 && progress<=100){
@@ -186,24 +186,24 @@ function getEleIFocus(str){
 }
 
 function getElementsByClass(searchClass,node,tag) {
-	var classElements = new Array();
+    var classElements = new Array();
 
-	if (node == null) node = document;
-	if (tag == null) tag = '*';
+    if (node == null) node = document;
+    if (tag == null) tag = '*';
 
-	var els = node.getElementsByTagName(tag);
+    var els = node.getElementsByTagName(tag);
 
-	var elsLen = els.length;
+    var elsLen = els.length;
     
     /*
-	var pattern = new RegExp('(^|\\\\s)'+searchClass+'(\\\\s|$)');
-	
-	for (i = 0, j = 0; i < elsLen; i++) {
-		if ( pattern.test(els[i].className) ) {
-			classElements[j] = els[i];
-			j++;
-		}
-	}
+    var pattern = new RegExp('(^|\\\\s)'+searchClass+'(\\\\s|$)');
+    
+    for (i = 0, j = 0; i < elsLen; i++) {
+        if ( pattern.test(els[i].className) ) {
+            classElements[j] = els[i];
+            j++;
+        }
+    }
     //*/
     var i,j;
     for (i = 0, j = 0; i < elsLen; i++) {
@@ -214,9 +214,9 @@ function getElementsByClass(searchClass,node,tag) {
                 classElements.push(els[i]);
             }
         }
-	}
+    }
     
-	return classElements;
+    return classElements;
 }
 
 /*---------Start actual Cursor Init-------------*/
@@ -247,7 +247,7 @@ function deactivateCursor(){
 clickable = new Array();
 clickableInverted = new Array("a","button");
 clickableDelayed = {
-	//"element":timing
+    //"element":timing
 }
 
 //Cursor Init
@@ -261,36 +261,36 @@ cur.init();
 
 //Attach mouseover events to clickable elements
 for(var a=0;a<clickableInverted.length;a++){
-	var eles = clickableInverted[a].parseElement();
-	for(var i=0;i<eles.length;i++){
-		eles[i].addEventListener("mouseover", activateInvertedCursor, false);
-		eles[i].addEventListener("click", deactivateCursor, false);
-		eles[i].addEventListener("mouseout", deactivateCursor, false);      
-	}
+    var eles = clickableInverted[a].parseElement();
+    for(var i=0;i<eles.length;i++){
+        eles[i].addEventListener("mouseover", activateInvertedCursor, false);
+        eles[i].addEventListener("click", deactivateCursor, false);
+        eles[i].addEventListener("mouseout", deactivateCursor, false);      
+    }
 }   
 
 for(var a=0;a<clickable.length;a++){
-	var eles = clickable[a].parseElement();
-	for(var i=0;i<eles.length;i++){
-		eles[i].addEventListener("mouseover", activateCursor, false);
-		eles[i].addEventListener("click", deactivateCursor, false);
-		eles[i].addEventListener("mouseout", deactivateCursor, false);      
-	}
+    var eles = clickable[a].parseElement();
+    for(var i=0;i<eles.length;i++){
+        eles[i].addEventListener("mouseover", activateCursor, false);
+        eles[i].addEventListener("click", deactivateCursor, false);
+        eles[i].addEventListener("mouseout", deactivateCursor, false);      
+    }
 }
 
  for(var a in clickableDelayed){
-	var eles = a.toString().parseElement();
-	for(var i=0;i<eles.length;i++){
-		eles[i].setAttribute("data-cursor-timing",clickableDelayed[a]);
-	}
+    var eles = a.toString().parseElement();
+    for(var i=0;i<eles.length;i++){
+        eles[i].setAttribute("data-cursor-timing",clickableDelayed[a]);
+    }
 }
 //Attach cursor to mouse
 window.addEventListener("mousemove",function(){
-	e = window.event;
-	mouseX = e.clientX;
-	mouseY = e.clientY;
-	cur.element.style.left = mouseX-25+"px";
-	cur.element.style.top = mouseY-25+"px";
+    e = window.event;
+    mouseX = e.clientX;
+    mouseY = e.clientY;
+    cur.element.style.left = mouseX-25+"px";
+    cur.element.style.top = mouseY-25+"px";
 });
 
 
